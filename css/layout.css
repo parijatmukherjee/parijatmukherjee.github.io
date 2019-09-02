@@ -325,87 +325,162 @@ ul#nav li.current a { color: #F06000; }
    border-radius: 3px 0 0 3px;
 }
 
-.photoshop {
+.fifty {
+  	width: 50%;
+  	-moz-animation: fifty 2s ease;
+  	-webkit-animation: fifty 2s ease;
+}
+
+.fiftyfive {
+   width: 55%;
+   -moz-animation: fiftyfive 2s ease;
+   -webkit-animation: fiftyfive 2s ease;
+}
+
+.sixty {
   	width: 60%;
-  	-moz-animation: photoshop 2s ease;
-  	-webkit-animation: photoshop 2s ease;
+  	-moz-animation: sixty 2s ease;
+  	-webkit-animation: sixty 2s ease;
 }
-.illustrator {
-  	width: 55%;
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
+
+.sixtyfive {
+   width: 65%;
+   -moz-animation: sixtyfive 2s ease;
+   -webkit-animation: sixtyfive 2s ease;
 }
-.wordpress {
-  	width: 50%;
-  	-moz-animation: wordpress 2s ease;
-  	-webkit-animation: wordpress 2s ease;
+
+.seventy {
+  	width: 70%;
+  	-moz-animation: seventy 2s ease;
+  	-webkit-animation: seventy 2s ease;
 }
-.css {
-  	width: 90%;
-  	-moz-animation: css 2s ease;
-  	-webkit-animation: css 2s ease;
+
+.seventyfive {
+   width: 75%;
+   -moz-animation: seventyfive 2s ease;
+   -webkit-animation: seventyfive 2s ease;
 }
-.html5 {
+
+.eighty {
   	width: 80%;
-  	-moz-animation: html5 2s ease;
-  	-webkit-animation: html5 2s ease;
-}
-.jquery {
-  	width: 50%;
-  	-moz-animation: jquery 2s ease;
-  	-webkit-animation: jquery 2s ease;
+  	-moz-animation: eighty 2s ease;
+  	-webkit-animation: eighty 2s ease;
 }
 
-@-moz-keyframes photoshop {
-  0%   { width: 0px;  }
-  100% { width: 60%;  }
+.eightyfive {
+   width: 85%;
+   -moz-animation: eightyfive 2s ease;
+   -webkit-animation: eightyfive 2s ease;
 }
-@-moz-keyframes illustrator {
+
+.ninety {
+  	width: 90%;
+  	-moz-animation: ninety 2s ease;
+  	-webkit-animation: ninety 2s ease;
+}
+
+.ninetyfive {
+   width: 95%;
+   -moz-animation: ninetyfive 2s ease;
+   -webkit-animation: ninetyfive 2s ease;
+}
+
+.hundred {
+  	width: 100%;
+  	-moz-animation: hundred 2s ease;
+  	-webkit-animation: hundred 2s ease;
+}
+
+@-moz-keyframes fifty {
+  0%   { width: 0px;  }
+  100% { width: 50%;  }
+}
+@-moz-keyframes fiftyfive {
   0%   { width: 0px;  }
   100% { width: 55%;  }
 }
-@-moz-keyframes wordpress {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-moz-keyframes css {
-  0%   { width: 0px;  }
-  100% { width: 90%;  }
-}
-@-moz-keyframes html5 {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
-}
-@-moz-keyframes jquery {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-
-@-webkit-keyframes photoshop {
+@-moz-keyframes sixty {
   0%   { width: 0px;  }
   100% { width: 60%;  }
 }
-@-webkit-keyframes illustrator {
+@-moz-keyframes sixtyfive {
+   0%   { width: 0px;  }
+   100% { width: 65%;  }
+ }
+@-moz-keyframes seventy {
   0%   { width: 0px;  }
-  100% { width: 55%;  }
+  100% { width: 70%;  }
 }
-@-webkit-keyframes wordpress {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-webkit-keyframes css {
-  0%   { width: 0px;  }
-  100% { width: 90%;  }
-}
-@-webkit-keyframes html5 {
+@-moz-keyframes seventyfive {
+   0%   { width: 0px;  }
+   100% { width: 75%;  }
+ }
+@-moz-keyframes eighty {
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
-@-webkit-keyframes jquery {
+@-moz-keyframes eightyfive {
+   0%   { width: 0px;  }
+   100% { width: 85%;  }
+ }
+@-moz-keyframes ninety {
+  0%   { width: 0px;  }
+  100% { width: 90%;  }
+}
+@-moz-keyframes ninetyfive {
+   0%   { width: 0px;  }
+   100% { width: 95%;  }
+ }
+
+ @-moz-keyframes hundred {
+   0%   { width: 0px;  }
+   100% { width: 100%;  }
+ }
+
+@-webkit-keyframes fifty {
   0%   { width: 0px;  }
   100% { width: 50%;  }
 }
-
+@-webkit-keyframes fiftyfive {
+  0%   { width: 0px;  }
+  100% { width: 55%;  }
+}
+@-webkit-keyframes sixty {
+  0%   { width: 0px;  }
+  100% { width: 60%;  }
+}
+@-webkit-keyframes sixtyfive {
+  0%   { width: 0px;  }
+  100% { width: 65%;  }
+}
+@-webkit-keyframes seventy {
+  0%   { width: 0px;  }
+  100% { width: 70%;  }
+}
+@-webkit-keyframes seventyfive {
+   0%   { width: 0px;  }
+   100% { width: 75%;  }
+ }
+@-webkit-keyframes eighty {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
+}
+@-webkit-keyframes eightyfive {
+   0%   { width: 0px;  }
+   100% { width: 85%;  }
+ }
+ @-webkit-keyframes ninety {
+   0%   { width: 0px;  }
+   100% { width: 90%;  }
+ }
+ @-webkit-keyframes ninetyfive {
+   0%   { width: 0px;  }
+   100% { width: 95%;  }
+ }
+ @-webkit-keyframes hundred {
+   0%   { width: 0px;  }
+   100% { width: 100%;  }
+ }
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
 /* ------------------------------------------------------------------ */
